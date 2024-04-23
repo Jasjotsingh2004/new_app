@@ -1,0 +1,30 @@
+.web-design {
+    padding: 20px;
+  }
+  
+  .course-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .course {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .course h3 {
+    margin-top: 0;
+  }
+  
+  .course p {
+    margin: 10px 0;
+  }
+  .back-button {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+  }
+  
+  
